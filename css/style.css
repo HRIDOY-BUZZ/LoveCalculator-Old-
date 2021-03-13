@@ -1,0 +1,97 @@
+.container_head{
+	background-color: pink;
+}
+.container_main{
+	display:table;
+	display: flex;
+  	flex-direction: column;
+	max-width: 600px;
+	/*height: auto;
+	height: 450px;*/
+	background-color: pink;
+	margin: 0 auto;
+	font-family: "Times New Roman";
+	font-weight: bold;
+	font-size: 2vw;
+}
+.title{
+	text-align: center;
+	font-family: "Times New Roman";
+	font-weight: bold;
+	color: red;
+	font-size: 300%;
+}
+.desc{
+	text-align: center;
+	font-family: "Times New Roman";
+	color: red;
+}
+.center{
+	width: 100%;
+	margin-left:auto; 
+    margin-right:auto;
+}
+input{
+	width: 100%;
+	padding: 4% 3%;
+	margin: 0 0;
+	box-sizing: border-box;
+}
+.btndiv{
+	width: 30%;
+	margin: 0 auto;
+}
+.myButton {
+	box-shadow:inset 0px 0px 0px 0px #f5978e;
+	background:linear-gradient(to bottom, #ff1c51 5%, #f593aa 100%);
+	background-color:#ff1c51;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:80%;
+	font-weight:bold;
+	padding:1% 3%;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+	width: 30%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f593aa 5%, #ff1c51 100%);
+	background-color:#f593aa;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.tdPadding {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 5%;
+	padding-right: 0%;
+}
+.tdPaddingh {
+	padding-top: 5%;
+	padding-bottom: 1%;
+	padding-left: 5%;
+	padding-right: 0%;
+}
+.tdPadding2 {
+	padding-left: 5%;
+	padding-right: 10%;
+}
+.tdPaddings {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+}
+p{
+	font-weight: bold;
+	font-size: 150%;
+}
+.cp-text{
+	color: rgba(0,0,0,.7);
+	text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+	font-size: 70%;
+}
